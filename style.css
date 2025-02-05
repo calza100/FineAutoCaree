@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+
+header{
+    background-color: rgb(132, 141, 148);
+    padding: 10px 15px;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+main{
+    padding: 40px 15px;
+}
